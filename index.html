@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Joshua Bliek - Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>JOSHUA BLIEK</h1>
+        <h3 class="ita">Software Developer</h3>
+        
+        <p>Contact: 
+            <a href="https://www.linkedin.com/in/joshua-bliek/">Linkedin</a> 
+            | <a href="https://github.com/slayinmantis213">Github</a> 
+            | jbliek213@yahoo.com
+        </p>
+        <nav id="nav">
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Work History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="bio">
+        <p>
+            Hi, I'm Josh, a full-stack web developer based in Sacramento, CA.
+        </p>
+        <p>
+            I began my foray into the tech industry in July 2023 when I enrolled in Coding Dojo's full-time online
+            software development program.
+            During bootcamp I discovered in myself a deep enjoyment for the creative aspects of coding along with an
+            appreciation for how everything fits or falls together like a set of Legos or Rube Goldberg machine.
+            I find joy in crafting applications that are not just functional but also unique, captivating, and engaging.
+            It seems the only limit a coder faces is the extent of their knowledge, and knowledge is everywhere.
+        </p>
+        <p>
+            Thanks to my time in Coding Dojo, I've not only built a robust foundation in full-stack web development,
+            proficient in Python, JavaScript, and C#,
+            but I've also cultivated the confidence and adaptability to learn any technology. Currently, I'm further
+            expanding my skill set by self-educating in the T3 stack.
+        </p>
+        <p>
+            The more I delve into this dynamic industry, the more I'm convinced that the learning journey is boundless,
+            and the possibilities are as expansive as the digital landscape itself.
+            I'm excited about the challenges that lie ahead, and eager to contribute to the ever-evolving world of
+            technology.
+        </p>
+
+    </section>
+
+    <section id="projects">
+        <h2>Software Projects</h2>
+        <!-- F8T  -->
+        <div class="flip-container" onclick="toggleFlip(this)">
+            <div class="flipper">
+                <div class="front">
+                    <div class="project">
+                        <div class=" flenter justify-between">
+                            <h3>F8T - Dungeon Crawler SPA</h3>
+                            <p class="ita">(4 weeks coding experience)</p>
+                            <p>Techstack: <span class="ita">HTML CSS</span></p>
+                        </div>
+                        <a href="https://github.com/slayinmantis213/project_week/tree/main"
+                            onclick="linkClick(event)">Repository</a>
+                        <p>Used dom manipulation and async functions to create single-page dungeon crawler lite rpg.</p>
+                        <p>Created 12 different enemy encounters and 3 unique player characters to encourage
+                            replayability.</p>
+                        <p>Implemented transitions using opacity and AJAX for smooth navigation room-to-room during user
+                            journey.</p>
+                        <p class="ita text-center">--- Click for gifs! ---</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="project flenter justify-around">
+                        <img src="./img/f8t-char-select-gif.gif" alt="f8t-char-select-gif">
+                        <img src="./img/f8t-battle-gif.gif" alt="f8t-battle-gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CREATURE CLASSES  -->
+        <div class="flip-container" onclick="toggleFlip(this)">
+            <div class="flipper">
+                <div class="front">
+                    <div class="project">
+                        <div class=" flenter justify-between">
+                            <h3>Creature Classes - Pet Collection Browser Game</h3>
+                            <p class="ita">(8 weeks coding experience)</p>
+                            <p>Techstack: <span class="ita">Python -- Django</span></p>
+                        </div>
+                        <a href="https://github.com/slayinmantis213/pet_rescue_django/blob/main/README.md"
+                            onclick="linkClick(event)">Github Demo</a>
+                        <p>Utilized inheritance to elevate user experience with 12 unique pets, enhancing variety and
+                            expanding engagement.</p>
+                        <p>Engineered randomization and rarity-weighting systems to extend user engagement and interest.
+                        </p>
+                        <p>Implemented currency/resource interactions, reward system to incentivize gameplay and
+                            throttle player progress.</p>
+                        <p class="ita text-center">--- Click for gifs! ---</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="project flenter justify-around">
+                        <img src="./img/rescue-gif.gif" alt="creature-classes-rescue-gif">
+                        <img src="./img/visit-gif.gif" alt="creature-classes-visit-gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HOPEFUL  -->
+        <div class="flip-container" onclick="toggleFlip(this)">
+            <div class="flipper">
+                <div class="front">
+                    <div class="project">
+                        <div class=" flenter justify-between">
+                            <h3>Hopeful- Interactive React page for producing soothing audio</h3>
+                            <p class="ita">(12 weeks coding experience)</p>
+                            <p>Techstack: <span class="ita">Javascript -- React</span></p>
+                        </div>
+                        <a href="https://github.com/slayinmantis213/project-week-MERN/blob/main/hopeful/README.md"
+                            onclick="linkClick(event)">Github Demo</a>
+                        <p>Collaborated in a team of two in all aspects from initial design to final iteration.</p>
+                        <p>Developed front-end architecture from scratch to achieve a dynamic, interactive UI/UX.</p>
+                        <p>Successfully descoped and pivotted from a larger project, delivering the final page on a
+                            two-day timeline.</p>
+                        <p class="ita text-center">--- Click for gifs! ---</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="project flenter justify-around">
+                        <img src="./img/hopeful-modal-gif.gif" alt="hopeful-modal-gif">
+                        <img src="./img/hopeful-buttons-gif.gif" alt="hopeful-buttons-gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- WIZARD  -->
+        <div class="flip-container" onclick="toggleFlip(this)">
+            <div class="flipper">
+                <div class="front">
+                    <div class="project">
+                        <div class=" flenter justify-between">
+                            <h3>Wizard- Classic RPG-inspired Unity project</h3>
+                            <p class="ita">(16 weeks coding experience)</p>
+                            <p>Techstack: <span class="ita">C# -- Unity</span></p>
+                        </div>
+                        <a href="https://github.com/slayinmantis213/unity-demo/blob/main/README.md"
+                            onclick="linkClick(event)">Github Demo</a>
+                        <p>Cooperated with a team of three in leveraging Unity Version Control to track changesets, and
+                            coordinate maintenance.</p>
+                        <p>Enhanced user journey by constructing animations for scene transitions and player and enemy
+                            battle actions.</p>
+                        <p>Pair programmed combat logic and asynchronous battle state transitions to produce turn-based
+                            combat system.</p>
+                        <p class="ita text-center">--- Click for gifs! ---</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="project flenter justify-around">
+                        <img src="./img/wizard-overworld-gif.gif" alt="wizard-overworld-gif">
+                        <img src="./img/wizard-battle-gif.gif" alt="wizard-battle-gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Coding Dojo - Full Stack Web Development Coding Bootcamp</h3>
+            <p>AUG-NOV 2023</p>
+            <ul class="p-1">
+                <li>16 weeks intensive coding bootcamp: 1000+ hrs of full stack web development</li>
+                <li>2x “Black Belt” Coding Dojo's highest level of achievement </li>
+                <li>Full-Time (40-60hrs/wk)100% remote class and collaboration</li>
+                <li>3x Completed full-stack CRUD application in under 4 hours</li>
+                <li>2x Deployed full-stack CRUD application via AWS/Ubuntu</li>
+                <li>Learned and practiced test-driven development</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2>Work History</h2>
+        <div class="job">
+            <h3>Amazon - Associate/Amnesty Floor Monitor (AFM)</h3>
+            <p>07/22 - 06/23</p>
+            <p>
+                Maintained Amazon Robotics floor efficiency as AFM, traversing AR floor in accordance with safety and
+                efficiency protocols, clearing jams, troubleshooting and/or resetting hardware; resolved 20 tickets/hour
+                (+/-5) during peak times.
+            </p>
+        </div>
+        <div class="job">
+            <h3>Starbucks - Shift Supervisor</h3>
+            <p>10/16 - 10/21</p>
+            <p>
+                2x Partner of the Quarter for exemplary overall performance. In particular for anticipating the needs of
+                my team, exemplary initiative, and high-quality customer service.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#nav">Back to Top</a>
+        <p>Contact: 
+            <a href="https://www.linkedin.com/in/joshua-bliek/">Linkedin</a> 
+            | <a href="https://github.com/slayinmantis213">Github</a> 
+            | jbliek213@yahoo.com
+        </p>
+    </footer>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
