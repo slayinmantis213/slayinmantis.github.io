@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+    
     <header>
         <h1>JOSHUA BLIEK</h1>
         <h3 class="ita">Software Developer</h3>
@@ -27,7 +27,6 @@
             </ul>
         </nav>
     </header>
-
     <section id="bio">
         <p>
             Hi, I'm Josh, a full-stack web developer based in Sacramento, CA.
@@ -92,7 +91,6 @@
                     <div class="project">
                         <div class=" flenter justify-between">
                             <h3>Creature Classes - Pet Collection Browser Game</h3>
-                            <p class="ita">(8 weeks coding experience)</p>
                             <p>Techstack: <span class="ita">Python -- Django</span></p>
                         </div>
                         <a href="https://github.com/slayinmantis213/pet_rescue_django/blob/main/README.md"
@@ -121,7 +119,6 @@
                     <div class="project">
                         <div class=" flenter justify-between">
                             <h3>Hopeful- Interactive React page for producing soothing audio</h3>
-                            <p class="ita">(12 weeks coding experience)</p>
                             <p>Techstack: <span class="ita">Javascript -- React</span></p>
                         </div>
                         <a href="https://github.com/slayinmantis213/project-week-MERN/blob/main/hopeful/README.md"
@@ -148,7 +145,6 @@
                     <div class="project">
                         <div class=" flenter justify-between">
                             <h3>Wizard- Classic RPG-inspired Unity project</h3>
-                            <p class="ita">(16 weeks coding experience)</p>
                             <p>Techstack: <span class="ita">C# -- Unity</span></p>
                         </div>
                         <a href="https://github.com/slayinmantis213/unity-demo/blob/main/README.md"
@@ -209,6 +205,7 @@
         </div>
     </section>
 
+
     <footer>
         <a href="#nav">Back to Top</a>
         <p>Contact: 
@@ -219,6 +216,14 @@
     </footer>
 
 </body>
-<script src="./script.js"></script>
+<script>
+    const toggleFlip = (elem) => {
+    elem.classList.toggle('flipped');
+    }
+
+    const linkClick = (event) => {
+        event.stopPropagation();
+    }
+</script>
 
 </html>

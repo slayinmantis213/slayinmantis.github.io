@@ -5,6 +5,10 @@
     flex-wrap: wrap;
 }
 
+.col{
+    flex-direction: column;
+}
+
 .p-1 li{
     padding: .5rem;
 }
@@ -22,6 +26,7 @@
 }
 
 body {
+    overflow-x: hidden;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -35,6 +40,8 @@ header {
     padding: 20px;
     text-align: center;
 }
+
+
 
 footer{
     background-color: black;
@@ -67,8 +74,14 @@ a{
 a:hover{
     color: red;
 }
-
-#bio, .project, .job, .education {
+#bio{
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.project, .job, .education {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
@@ -102,7 +115,7 @@ a:hover{
 
 .flip-container {
     /* perspective: 2000px; */
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 300px;
 }
@@ -134,3 +147,44 @@ a:hover{
     max-width: 405px;
 }
 
+/* Mobile Devices (up to 767px) */
+@media screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        margin: auto;
+        width: 100%;
+    }
+    .flip-container{
+        overflow: scroll;
+        margin-bottom: 3rem;
+    }
+    img{
+        margin-top: 1rem;
+    }
+}
+
+/* Tablets (768px to 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Small Desktops and Laptops (992px to 1199px) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    section{
+        max-width:95%;
+    }
+}
+
+/* Standard Desktops (1200px and above) */
+@media screen and (min-width: 1200px) {
+}
+
+/* Portrait Orientation (for devices that support orientation) */
+@media screen and (orientation: portrait) {
+}
+
+/* Landscape Orientation (for devices that support orientation) */
+@media screen and (orientation: landscape) {
+}
