@@ -9,8 +9,7 @@
 </head>
 
 <body>
-    
-    <header>
+    <header id="head">
         <h1>JOSHUA BLIEK</h1>
         <h3 class="ita">Software Developer</h3>
         
@@ -24,35 +23,38 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#work">Work History</a></li>
+                <div class="cursor-shadow"></div>
             </ul>
-        </nav>
+        </nav>    
     </header>
-    <section id="bio">
-        <p>
-            Hi, I'm Josh, a full-stack web developer based in Sacramento, CA.
-        </p>
-        <p>
-            I began my foray into the tech industry in July 2023 when I enrolled in Coding Dojo's full-time online
-            software development program.
-            During bootcamp I discovered in myself a deep enjoyment for the creative aspects of coding along with an
-            appreciation for how everything fits or falls together like a set of Legos or Rube Goldberg machine.
-            I find joy in crafting applications that are not just functional but also unique, captivating, and engaging.
-            It seems the only limit a coder faces is the extent of their knowledge, and knowledge is everywhere.
-        </p>
-        <p>
-            Thanks to my time in Coding Dojo, I've not only built a robust foundation in full-stack web development,
-            proficient in Python, JavaScript, and C#,
-            but I've also cultivated the confidence and adaptability to learn any technology. Currently, I'm further
-            expanding my skill set by self-educating in the T3 stack.
-        </p>
-        <p>
-            The more I delve into this dynamic industry, the more I'm convinced that the learning journey is boundless,
-            and the possibilities are as expansive as the digital landscape itself.
-            I'm excited about the challenges that lie ahead, and eager to contribute to the ever-evolving world of
-            technology.
-        </p>
+    <div id="bio">
+        <section>
+            <p>
+                Hi, I'm Josh, a full-stack web developer based in Sacramento, CA.
+            </p>
+            <p>
+                I began my foray into the tech industry in July 2023 when I enrolled in Coding Dojo's full-time online
+                software development program.
+                During bootcamp I discovered in myself a deep enjoyment for the creative aspects of coding along with an
+                appreciation for how everything fits or falls together like a set of Legos or Rube Goldberg machine.
+                I find joy in crafting applications that are not just functional but also unique, captivating, and engaging.
+                It seems the only limit a coder faces is the extent of their knowledge, and knowledge is everywhere.
+            </p>
+            <p>
+                Thanks to my time in Coding Dojo, I've not only built a robust foundation in full-stack web development,
+                proficient in Python, JavaScript, and C#,
+                but I've also cultivated the confidence and adaptability to learn any technology. Currently, I'm further
+                expanding my skill set by self-educating in the T3 stack.
+            </p>
+            <p>
+                The more I delve into this dynamic industry, the more I'm convinced that the learning journey is boundless,
+                and the possibilities are as expansive as the digital landscape itself.
+                I'm excited about the challenges that lie ahead, and eager to contribute to the ever-evolving world of
+                technology.
+            </p>
+        </section>
 
-    </section>
+    </div>
 
     <section id="projects">
         <h2>Software Projects</h2>
@@ -216,14 +218,14 @@
     </footer>
 
 </body>
-<script>
-    const toggleFlip = (elem) => {
-    elem.classList.toggle('flipped');
-    }
+<script src="script.js">
+    // const toggleFlip = (elem) => {
+    // elem.classList.toggle('flipped');
+    // }
 
-    const linkClick = (event) => {
-        event.stopPropagation();
-    }
+    // const linkClick = (event) => {
+    //     event.stopPropagation();
+    // }
 </script>
 
 </html>
